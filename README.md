@@ -22,25 +22,21 @@ https://company-research-radar-chart.vercel.app/
 
 🛠 使用技術
 
-Frontend: React (Hooks: useState, useEffect, useMemo, useCallback, memo)
-
-Styling: Tailwind CSS
-
-Icons: Lucide React
-
-Visualization: SVG (独自ロジックによる描画)
-
-Build Tool: Vite
+- Frontend: React (Hooks: useState, useEffect, useMemo, useCallback, memo)
+- Styling: Tailwind CSS
+- Icons: Lucide React
+- Visualization: SVG (独自ロジックによる描画)
+- Build Tool: Vite
 
 💡 技術的なこだわり
 
-ライブラリに頼らないグラフ描画:
+# ライブラリに頼らないグラフ描画:
 Chart.js などの外部ライブラリを使用せず、数学的計算（三角関数）を用いて SVG でレーダーチャートを自作しました。これにより、軽量化と企業ごとの柔軟な項目変更を両立させています。
 
-レンダリングの最適化:
+# レンダリングの最適化:
 React.memo や useCallback を活用し、フォーム入力時の不要な再レンダリングを抑制。大規模なリスト表示でもスムーズな動作を実現しました。
 
-堅牢なデータ処理:
+# 堅牢なデータ処理:
 外部ファイル読み込み（JSON）の際、データの整合性をチェックするバリデーション層を設けています。
 
 📦 開発環境での実行方法
