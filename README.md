@@ -4,7 +4,13 @@ COMPANY ANALYZER 🏢📊
 
 🚀 ライブデモ
 
-[※ここにVercel等で公開したURLを貼り付けます]
+https://company-research-radar-chart.vercel.app/
+
+✨ 概要
+
+ターゲット層：企業研究中の就活生
+企業研究をする中でまとめた企業への評価を、レーダーチャートの形で整理できるアプリ。
+企業名と凡例を自分に合わせたものに変更可能。
 
 ✨ 主な機能
 
@@ -54,7 +60,3 @@ npm install
 起動
 
 npm run dev
-
-📝 ライセンス
-
-MIT License
